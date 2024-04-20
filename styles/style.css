@@ -1,0 +1,50 @@
+span{
+  color: green;
+}
+*{
+  margin: 0px;/* margin-top margin-bottom margin-left margin-rigth*/
+  padding: 0px;/* padding-top padding-bottom padding-left padding-rigth*/
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Open Sans','Times New Romam ', sans-serif;/*Tipo de fonte*/
+  font-weight: 400;/*Peso da fonte*/
+  font-size: 14px;/*Tamanho da Fonte*/
+  text-align: center;
+}
+h1{
+  font-family: 'Inter','Times New Romam ', sans-serif;/*Tipo de fonte*/
+  font-weight: 400;/*Peso da fonte*/
+  font-size: 49px;/*Tamanho da Fonte*/
+  margin-bottom: 32px;
+}h1 span{
+  font-weight: bold;
+}
+p{
+  color:#7D7987;
+ line-height: 28px;
+}
+.hero{
+  width:592px;
+  height:579px;
+  margin:0 auto 72px;
+}
+a{
+  color: #a84c00 ;
+  line-height: 28px;
+}
+.main-image{
+  margin-bottom: 72px;
+}
+.footer{
+  margin:0 auto;
+  width:568px;
+  border-top: solid 2px #ECEFF2;  
+  padding-top: 8px;
+}
+footer a + a{
+  margin-left:16px;
+}
+.troca{
+ color: #FF9900
+  }
